@@ -11,6 +11,8 @@ article {
         img {
             width: 45px;
             height: 45px;
+            box-shadow: inset 0px 0px 0px 1px hsla(0, 0%, 0%, 0.05);
+            border-radius: 50%;
         }
     }
     &.unread {
@@ -41,5 +43,20 @@ article {
         :hover {
             text-decoration: underline;
         }
+    }
+    .messages {
+        box-sizing: border-box;
+        border: 1px solid $greyish-blue-94;
+        border-radius: 5px;
+        margin-top: 12px;
+        padding: 20px;
+    }
+}
+
+.picture-comment {
+    img {
+        margin-left: 16px;
+        width: 45px;
+        height: 45px;
     }
 }

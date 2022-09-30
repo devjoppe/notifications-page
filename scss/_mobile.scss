@@ -18,7 +18,7 @@
 
     // Mobile Base
     .container {
-        background: pink;
+        //background: pink;
         padding: 0 16px 0 16px;
         width: auto;
     }
@@ -40,6 +40,19 @@
                 width: 39px;
                 height: 39px;
             }
+        }
+    }
+
+    .notification-text {
+        .messages {
+            padding: 16px;
+        }
+    }
+
+    .picture-comment {
+        img {
+            width: 39px;
+            height: 39px;
         }
     }
     // End Mobile Article
