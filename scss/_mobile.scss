@@ -1,20 +1,39 @@
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 740px) {
+
+    :root {
+        font-size: 14px;
+    }
 
     // Mobile Body
     body {
         background: $white;
         justify-content: flex-start;
     }
+    // End Mobile Body
 
     // Mobile Base
-    article {
-        margin-bottom: 10px;
-    }
-
     .container {
         background: blue;
         padding: 0 16px 0 16px;
+        width: auto;
     }
-    
+    // End Mobile Base
 
+    // Mobile Header
+
+    // End Mobile Header
+
+    // Mobile Article
+    article {
+        padding: 16px;
+        margin-bottom: 10px;
+        .user-avatar {
+            margin-right: 13px;
+            img {
+                width: 39px;
+                height: 39px;
+            }
+        }
+    }
+    // End Mobile Article
 }

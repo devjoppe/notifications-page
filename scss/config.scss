@@ -4,6 +4,10 @@
 // Fonts
 $font-stack: 'Plus Jakarta Sans', sans-serif;
 
+h1 {
+    margin: 0;
+}
+
 // Colors
 $red: hsl(1, 90%, 64%);
 $blue: hsl(219, 85%, 26%);
@@ -17,6 +21,11 @@ $greyish-blue-94: hsl(211, 68%, 94%);
 $greyish-blue-90: hsl(205, 33%, 90%);
 $greyish-blue-dark: hsl(219, 12%, 42%);
 $dark-blue: hsl(224, 21%, 14%);
+
+:root {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+}
 
 // Body
 body {
@@ -32,6 +41,7 @@ body {
 
 // Base
 .container {
+    width: 730px;
     background: $white;
     margin-bottom: 8px;
     border-radius: 15px;

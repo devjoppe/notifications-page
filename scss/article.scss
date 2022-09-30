@@ -1,4 +1,42 @@
 article {
-    background: $snow;
+    display: flex;
     border-radius: 8px;
+    padding: 18px;
+    margin-bottom: 8px;
+    line-height: 20px;
+    .user-avatar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 19px;
+        img {
+            width: 45px;
+            height: 45px;
+        }
+    }
+    &.unread {
+        background: $snow;
+    }
+}
+
+.notification-text {
+    color: $greyish-blue-dark;
+    .user {
+        font-weight: 600;
+        color: $dark-blue;
+    }
+    .type {   
+        font-weight: 600;
+    }
+    .time {
+        display: block;
+        color: $greyish-blue-100;
+    }
+    a {
+        text-decoration: none;
+        color: $blue !important;
+        :hover {
+            text-decoration: underline;
+        }
+    }
 }
