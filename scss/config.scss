@@ -1,0 +1,24 @@
+// Fonts import
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&display=swap');
+
+// Fonts
+$primary-regular: 'Plus Jakarta Sans', sans-serif;
+
+// Colors
+$red: hsl(1, 90%, 64%);
+$blue: hsl(219, 85%, 26%);
+
+// Neutral colors
+$white: hsl(0, 0%, 100%);
+$greyish-blue-100: hsl(219, 14%, 63%);
+$greyish-blue-94: hsl(211, 68%, 94%);
+$greyish-blue-90: hsl(205, 33%, 90%);
+$greyish-blue-dark: hsl(219, 12%, 42%);
+$dark-blue: hsl(224, 21%, 14%);
+
+// Body
+body {
+    background: $greyish-blue-90;
+    margin: 0;
+    padding: 0;
+}
