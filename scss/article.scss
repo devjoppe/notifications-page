@@ -7,7 +7,6 @@ article {
     .user-avatar {
         display: flex;
         justify-content: center;
-        align-items: center;
         margin-right: 19px;
         img {
             width: 45px;
@@ -22,15 +21,19 @@ article {
 .notification-text {
     color: $greyish-blue-dark;
     .user {
-        font-weight: 600;
+        font-weight: 700;
         color: $dark-blue;
     }
     .type {   
-        font-weight: 600;
+        font-weight: 700;
     }
     .time {
         display: block;
         color: $greyish-blue-100;
+    }
+    .unread-mark {
+        font-size: 20px;
+        color: $red;
     }
     a {
         text-decoration: none;

@@ -4,6 +4,11 @@
         font-size: 14px;
     }
 
+    h1 {
+        font-size: 20px;
+        margin: 0 9px 0 0;
+    }
+
     // Mobile Body
     body {
         background: $white;
@@ -13,14 +18,16 @@
 
     // Mobile Base
     .container {
-        background: blue;
+        background: pink;
         padding: 0 16px 0 16px;
         width: auto;
     }
     // End Mobile Base
 
     // Mobile Header
-
+    header {
+        margin: 24px 0 24px 0;
+    }
     // End Mobile Header
 
     // Mobile Article

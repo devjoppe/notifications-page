@@ -1,12 +1,8 @@
 // Fonts import
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 
-// Fonts
+// Font stack
 $font-stack: 'Plus Jakarta Sans', sans-serif;
-
-h1 {
-    margin: 0;
-}
 
 // Colors
 $red: hsl(1, 90%, 64%);
@@ -27,6 +23,14 @@ $dark-blue: hsl(224, 21%, 14%);
     font-size: 16px;
 }
 
+// Fonts
+h1 {
+    font-size: 24px;
+    color: $dark-blue;
+    font-weight: 800;
+    margin: 0 11px 0 0;
+}
+
 // Body
 body {
     height: 100vh;
@@ -43,6 +47,10 @@ body {
 .container {
     width: 730px;
     background: $white;
-    margin-bottom: 8px;
     border-radius: 15px;
+    padding: 0 32px 0 32px;
+}
+
+.hide {
+    display: none;
 }
