@@ -1,0 +1,20 @@
+@media screen and (max-width: 992px) {
+
+    // Mobile Body
+    body {
+        background: $white;
+        justify-content: flex-start;
+    }
+
+    // Mobile Base
+    article {
+        margin-bottom: 10px;
+    }
+
+    .container {
+        background: blue;
+        padding: 0 16px 0 16px;
+    }
+    
+
+}

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&display=swap');
 
 // Fonts
-$primary-regular: 'Plus Jakarta Sans', sans-serif;
+$font-stack: 'Plus Jakarta Sans', sans-serif;
 
 // Colors
 $red: hsl(1, 90%, 64%);
@@ -10,6 +10,8 @@ $blue: hsl(219, 85%, 26%);
 
 // Neutral colors
 $white: hsl(0, 0%, 100%);
+$white-95: #F2F2F2;
+$snow: #F7FAFD;
 $greyish-blue-100: hsl(219, 14%, 63%);
 $greyish-blue-94: hsl(211, 68%, 94%);
 $greyish-blue-90: hsl(205, 33%, 90%);
@@ -18,7 +20,19 @@ $dark-blue: hsl(224, 21%, 14%);
 
 // Body
 body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: $greyish-blue-90;
     margin: 0;
     padding: 0;
+}
+
+// Base
+.container {
+    background: $white;
+    margin-bottom: 8px;
+    border-radius: 15px;
 }
