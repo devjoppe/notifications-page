@@ -53,6 +53,15 @@ body {
     padding: 0;
 }
 
+// Footer
+footer {
+    color: $greyish-blue-100;
+    margin-top: 50px;
+    a {
+        color: $greyish-blue-dark;
+    }
+}
+
 // Bases
 .container {
     width: 730px;
@@ -64,4 +73,13 @@ body {
 
 .hide {
     display: none;
+}
+
+.reload_page {
+    display: flex;
+    margin: 16px 0 16px 0;
+    color: $blue;
+    span {
+        margin-right: 8px;
+    }
 }
