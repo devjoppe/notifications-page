@@ -17,7 +17,10 @@ header {
             border-radius: 11px;
         }
     }
-    .mark-read {
+    .unmarked {
         color: $blue;
+        &.check {
+            color: $greyish-blue-94;
+        }
     }
 }
