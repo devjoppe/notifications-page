@@ -19,13 +19,13 @@
     <header>
       <div class="title">
         <h1>Notifications</h1>
-        <span class="unread-number">3</span>
+        <span id="readnumbers" class="unread-number"></span>
       </div>
       <a class="mark-read" href="#">Mark all as read</a>
     </header>
     <main>
       <section>
-        <article class="unread">
+        <article id="post" class="unread">
           <div class="user-avatar">
             <img src="assets/images/avatar-mark-webber.webp" alt="Mark Webber">
           </div>
@@ -37,7 +37,7 @@
             <span class="time">1m ago</span>
           </div>
         </article>
-        <article class="unread">
+        <article id="post" class="unread">
           <div class="user-avatar">
             <img src="assets/images/avatar-angela-gray.webp" alt="Angela Gray">
           </div>
@@ -60,7 +60,7 @@
             <span class="time">5m ago</span>
           </div>
         </article>
-        <article class="read">
+        <article class="">
           <div class="user-avatar">
             <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin">
           </div>
@@ -74,7 +74,7 @@
             </div>
           </div>
         </article>
-        <article class="read">
+        <article class="">
           <div class="user-avatar">
             <img src="assets/images/avatar-kimberly-smith.webp" alt="Kimberly Smith">
           </div>
@@ -87,7 +87,7 @@
             <img src="assets/images/image-chess.webp" alt="A women playing chess">
           </div>
         </article>
-        <article class="read">
+        <article class="">
           <div class="user-avatar">
             <img src="assets/images/avatar-nathan-peterson.webp" alt="Nathan Peterson">
           </div>
@@ -98,7 +98,7 @@
             <span class="time">2 weeks ago</span>
           </div>
         </article>
-        <article class="read">
+        <article class="">
           <div class="user-avatar">
             <img src="assets/images/avatar-anna-kim.webp" alt="Anna Kim">
           </div>
@@ -116,6 +116,7 @@
 Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
 Coded by <a href="#">Your Name Here</a>.
 </div> -->
+  <script src="js/jquery-3.6.1.min.js"></script>
   <script src="js/notifications.js"></script>
 </body>
 </html>
