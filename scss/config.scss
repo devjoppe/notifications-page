@@ -16,6 +16,7 @@ $greyish-blue-100: hsl(219, 14%, 63%);
 $greyish-blue-94: hsl(211, 68%, 94%);
 $greyish-blue-90: hsl(205, 33%, 90%);
 $greyish-blue-dark: hsl(219, 12%, 42%);
+$light-blue: #E5EFFA;
 $dark-blue: hsl(224, 21%, 14%);
 
 :root {
@@ -52,12 +53,13 @@ body {
     padding: 0;
 }
 
-// Base
+// Bases
 .container {
     width: 730px;
     background: $white;
     border-radius: 15px;
     padding: 0 32px 0 32px;
+    box-shadow: 0px 20px 60px rgba(73, 97, 168, 0.05);
 }
 
 .hide {
